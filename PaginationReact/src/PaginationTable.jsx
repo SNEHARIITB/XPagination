@@ -15,7 +15,8 @@ const PaginationTable = () => {
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {
-      alert('failed to fetch data');
+      alert('fetchDataFailed');
+      console.error(error);
     }
   };
 
