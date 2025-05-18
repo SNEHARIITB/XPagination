@@ -63,7 +63,7 @@ const PaginationTable = () => {
         <button
           id="prevbtn"
           onClick={handlePrev}
-          disabled={currentPage === 1}
+          
         >
           Previous
         </button>
@@ -71,7 +71,7 @@ const PaginationTable = () => {
         <button
           id="nextbtn"
           onClick={handleNext}
-          disabled={currentPage === totalPages}
+          
         >
           Next
         </button>
