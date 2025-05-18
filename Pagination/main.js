@@ -42,8 +42,8 @@ function renderTable(){
         tablebody.appendChild(row);
     });
     
-    const totalPages = Math.ceil(data.length / rowsPerPage);
-    pageinfo.innerHTML = `${currentPage}`;
+    //const totalPages = Math.ceil(data.length / rowsPerPage);
+    pageinfo.textContent = `${currentPage}`;
 
     //prevbtn.disabled = currentPage === 1;
     //nextbtn.disabled = currentPage === totalPages;
