@@ -43,7 +43,7 @@ function renderTable(){
     });
     
     //const totalPages = Math.ceil(data.length / rowsPerPage);
-    pageinfo.textContent = `${currentPage}`;
+    pageinfo.textContent = `Page ${currentPage}`;
 
     //prevbtn.disabled = currentPage === 1;
     //nextbtn.disabled = currentPage === totalPages;

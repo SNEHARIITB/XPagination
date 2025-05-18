@@ -41,7 +41,7 @@ body{
     cursor: pointer;
     margin-right: 8px;
 }
-.pageinfo{
+#pageinfo{
     color: white;
     background-color: rgb(5, 163, 13);
     border: none;
