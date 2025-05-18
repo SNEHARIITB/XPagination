@@ -45,8 +45,8 @@ function renderTable(){
     const totalPages = Math.ceil(data.length / rowsPerPage);
     pageinfo.textContent = `${currentPage}`;
 
-    prevbtn.disabled = currentPage === 1;
-    nextbtn.disabled = currentPage === totalPages;
+    //prevbtn.disabled = currentPage === 1;
+    //nextbtn.disabled = currentPage === totalPages;
 
 }
 
