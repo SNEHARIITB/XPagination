@@ -31,7 +31,17 @@ body{
 .pagination{
     margin-top: 20px;
 }
-.pagination button,span{
+.pagination button{
+    color: white;
+    background-color: rgb(5, 163, 13);
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.pageinfo{
     color: white;
     background-color: rgb(5, 163, 13);
     border: none;
