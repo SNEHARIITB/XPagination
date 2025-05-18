@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 2%;
+}
+#table{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px solid green;
+    border-left: 1px solid grey;
+    box-shadow: 5px 5px 5px;
+    
+}
+.thead{
+    background-color: rgb(73, 228, 73);
+    color: white;
+    padding: 8px;
+}
+#tbody tr{
+    font-size: 25px;
+
+}
+#tbody tr td{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    
+}
+.pagination{
+    margin-top: 20px;
+}
+.pagination button,span{
+    color: white;
+    background-color: rgb(5, 163, 13);
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
